@@ -11,6 +11,15 @@ module.exports = {
       }
     }
   },
+  colors:{
+    extend:{
+      aqua: {
+        light: '#80d8ff',
+        DEFAULT: '#80d8ff',
+        dark: '#80d8ff'
+      }
+    }
+  },
   variants: {
     extend: {},
   },

@@ -8,16 +8,19 @@ module.exports = {
     extend: {
       fontFamily: {
         'roboto-condensed': '"Roboto Condensed"'
-      }
-    }
-  },
-  colors:{
-    extend:{
-      aqua: {
-        light: '#80d8ff',
-        DEFAULT: '#80d8ff',
-        dark: '#80d8ff'
-      }
+      },
+      backgroundImage: {
+        'empty-table': "url('/img/pexels-sarah-chai-7262799.jpg')"
+      },
+      colors:{
+        card1: {
+          accent: '#cca43b',
+          DEFAULT: '#242f40',
+          brown: '#363636',
+          text: '#e5e5e5'
+        },
+        grass: {DEFAULT: '#457b9d'},
+      },
     }
   },
   variants: {

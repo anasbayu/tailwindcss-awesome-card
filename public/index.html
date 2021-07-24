@@ -8,35 +8,52 @@
       <link rel="stylesheet" href="styles.css">
       <script src="https://kit.fontawesome.com/a730907902.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-indigo-300">
+<body class="bg-card1-accent">
       <div class="flex h-screen">
-            <div class="m-auto grid grid-cols-3 h-300 md:h-2/3 w-3/4 xl:w-2/4 md:w-2/3 sm:w-3/4 shadow-lg">
-                  <div class="p-5 text-center grid grid-rows-3 bg-red-200 rounded-l-2xl">
-                        <div class="bg-yellow-50 row-span-2">
-                              <h1 class="font-mono lg:text-4xl md:text-xl font-semibold mb-5">Hello Tailwind!</h1>
-                              <p class="italic md:text-sm">This is a simple awesome card project made with TailwindCSS</p>
+            <div class="m-auto grid grid-cols-3 h-2/3 w-3/4 xl:w-2/4 md:w-3/5 sm:w-5/6 shadow-2xl text-card1-text">
+                  <!-- Left section -->
+                  <div class="p-5 text-center grid grid-rows-3 bg-card1 rounded-l-2xl h-full">
+                        <div class="row-span-2 pt-5">
+                              <h1 class="font-mono lg:text-4xl text-lg md:text-xl font-semibold mb-5 lg:mb-10">Hello Tailwind!</h1>
+                              <p class="italic sm:text-sm">This is a simple awesome card project made entirely with TailwindCSS</p>
                         </div>
-                        <div class="align-bottom text-center lg:flex lg:space-x-3 h-auto mb-5">
+                        <div class="align-bottom text-center sm:flex space-x-1 lg:space-x-3 h-auto mb-5">
                               <div class="flex-1 h-auto mt-auto">
                                     <a href="https://github.com/anasbayu" >
-                                          <i class="fab fa-github fa-3x"></i>
+                                          <i class="fab fa-github fa-2x"></i>
                                     </a>
                               </div>
                               <div class="flex-1 h-auto mt-auto">
                                     <a href="https://www.instagram.com/anasbayu" class="flex-1">
-                                          <i class="fab fa-instagram fa-3x"></i>	
+                                          <i class="fab fa-instagram fa-2x"></i>	
                                     </a>
                               </div>
                               <div class="flex-1 h-auto mt-auto">
                                     <a href="https://anasbayu.medium.com/" class="flex-1">
-                                          <i class="fab fa-medium fa-3x"></i>
+                                          <i class="fab fa-medium fa-2x"></i>
                                     </a>
                               </div>
                         </div>
-                        <span class="italic">made with love by <b>@anasbayu</b></span>
+                        <span class="italic">made with love by <b><a href="http://www.anasbayu.xyz">@anasbayu</a></b></span>
                   </div>
-                  <div class="col-span-2 bg-blue-100 rounded-r-2xl">
-                        
+
+                  <!-- Right section -->
+                  <div class="col-span-2 bg-card1-brown rounded-r-2xl h-full">
+                        <div class="">
+                              <!-- Image section -->
+                              <div class="text-center w-full rounded-r-2xl overflow-hidden align-top">
+                                    <img src="img/pexels-sarah-chai-7262799.jpg" alt="table and mug">
+                                    <span class="font-thin text-xs"><a href="https://www.pexels.com/photo/notice-board-near-cup-in-room-7262799/">Photo by Sarah Chai from Pexels</a></span>
+                              </div>
+
+
+                              <!-- text section -->
+                              <div class="text-card1-text p-7 pt-2">
+                                    <h2 class="font-bold text-xl">about me</h2>
+                                    <p class="">Hi! I am a software developer from Indonesia. This is my first project in GitHub, 
+                                          hope you like this project! Feel free to reach me anytime.</p>
+                              </div>
+                        </div>
                   </div>
             </div>
       </div>
